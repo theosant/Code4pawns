@@ -3,6 +3,7 @@ import Card from './components/Card';
 import Contato from './components/Contato';
 import Footer from './components/Footer';
 import Header from './components/header/index.jsx';
+import Form from './components/Formulario';
 
 function App() {
   return (
