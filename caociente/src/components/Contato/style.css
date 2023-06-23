@@ -1,0 +1,11 @@
+.contato {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.contato-image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
