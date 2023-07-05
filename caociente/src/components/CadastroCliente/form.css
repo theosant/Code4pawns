@@ -15,25 +15,20 @@
 .campo {
     margin-bottom: 10px;
 }
-  
+
+div.metade {
+    width: 50% !important;
+}
+
 label {
     display: block;
     margin-bottom: 5px;
     text-align: left;
 }
   
-select, input {
+select {
     width: 100%;
     padding: 5px;
-}
-
-.div-dividida {
-    display: flex;
-    justify-content: space-between;
-}
-
-.metade {
-    width:48%;
 }
   
 button[type="submit"] {
@@ -46,4 +41,3 @@ button[type="submit"] {
     display: block;
     margin: 0 auto;
 }
-  
