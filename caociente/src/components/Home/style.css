@@ -1,0 +1,160 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+.back{
+height: 1000px;
+}
+
+.welcome-section {
+position: relative;
+height: 380px;
+overflow: hidden;
+background-image: url("../../../public/imagens/f0059.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.overlay {
+font-family: Montserrat;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.6);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+color: #fff;
+text-align: left;
+}
+
+.overlay h1 {
+font-size: 2.5rem;
+font-weight: bold;
+text-align: left;
+width: 80%;
+margin:  0 0 1rem 5rem;
+}
+
+.overlay p {
+font-size: 1.3rem;
+line-height: 1.6;
+width: 80%;
+margin:  0 0 0 5rem;
+}
+
+
+.card-back{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #fff;
+
+}
+
+.card {
+width: 50%;
+height: 10rem;
+background-color: #007878;
+color: #fff;
+border-radius: 10px;
+padding: 20px;
+text-align: center;
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.card h2 {
+font-size: 1.5rem;
+margin-bottom: 10px;
+font-family: Montserrat;
+}
+
+
+
+.button.teste:active {
+    background-color: #4f5d0b;
+}
+.button.teste:hover {
+    background-color: #869e10;
+}
+.button.teste {
+    background-color: #A8C030;
+    padding: 1em;
+}
+.button.mais:active {
+    background-color: #083c3c;
+}
+.button.mais:hover {
+    background-color: #0c4545;
+}
+.button.mais {
+    padding: 1em;
+    background-color: #007878;
+    border: none;
+}
+
+.button{
+    display: flex;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-back{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    margin: 3em 0 0 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.more-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007878;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
