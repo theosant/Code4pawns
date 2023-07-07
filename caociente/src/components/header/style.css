@@ -47,3 +47,9 @@
     color: #9cc0c0;
   }
   
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}

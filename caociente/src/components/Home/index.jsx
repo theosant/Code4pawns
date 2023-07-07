@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './style.css'
-
+import {Link} from 'react-router-dom'
 const Home = () => {
     return (
         <div className='back'>
@@ -16,7 +16,7 @@ const Home = () => {
         <div className='card-back'>
             <div className='card'>
                 <h2>Descubra já qual animal combina com seu perfil!</h2>
-                <a href='#' className='button teste'>Faça o teste</a>
+                <Link to='/Quizz' className='button teste'>Faça o teste</Link>
             </div>
 
         </div>
