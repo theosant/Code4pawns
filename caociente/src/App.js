@@ -17,20 +17,22 @@ import Fotos from './components/Fotos';
 function App() {
   return (
     <div className="App">
+        <div className='conteudo'>  
         <Header />
-        <Routes>
-            <Route exact path="/" element={<Home/>}></Route>
-            <Route exact path="/Fotos" element={<Fotos/>}></Route>
+          <Routes>
+              <Route exact path="/" element={<Home/>}></Route>
+              <Route exact path="/Fotos" element={<Fotos/>}></Route>
             <Route exact path="/Quizz" element={<MeuFormulario/>}></Route>
-            <Route exact path="/AnimalList" element={<AnimalList/>}></Route>
-            <Route exact path="/Resultado" element={<Resultado/>}></Route>
-            <Route exact path="/Animal/:id" element={<AnimalPage/>}></Route>
-            <Route exact path="/AgendarPasseio/:id" element={<AgendarPasseio/>}></Route>
-            <Route exact path="/admin/cadastroCliente" element={<CadastroCliente/>}></Route>
-            <Route exact path="/admin/cadastroAnimal" element={<CadastroAnimal/>}></Route>
-            <Route exact path="/admin/cadastroAdmin" element={<CadastroAdmin/>}></Route>
-        </Routes>
-        <Contato />
+              <Route exact path="/AnimalList" element={<AnimalList/>}></Route>
+              <Route exact path="/Resultado" element={<Resultado/>}></Route>
+              <Route exact path="/Animal/:id" element={<AnimalPage/>}></Route>
+              <Route exact path="/AgendarPasseio/:id" element={<AgendarPasseio/>}></Route>
+              <Route exact path="/admin/cadastroCliente" element={<CadastroCliente/>}></Route>
+              <Route exact path="/admin/cadastroAnimal" element={<CadastroAnimal/>}></Route>
+              <Route exact path="/admin/cadastroAdmin" element={<CadastroAdmin/>}></Route>
+          </Routes>
+          <Contato />
+        </div>
         <Footer />
     </div>
   );

@@ -23,7 +23,7 @@ const CadastroAdmin = () => {
 
   return (
     <div className="container">
-      <h1>Formulário de Cadastro</h1>
+      <h1>Cadastro de aministrador</h1>
       <form onSubmit={handleSubmit}>
         <div className="campo">
           <label htmlFor="nome">Nome:</label>

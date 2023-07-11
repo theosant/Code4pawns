@@ -26,7 +26,7 @@ const MeuFormulario = () => {
 
   return (
     <div className="container">
-      <h1>Qual animal você prefere?</h1>
+      <h1 className='titulo'>Qual animal você prefere?</h1>
       <form onSubmit={handleSubmit}>
         <div className="campo">
           <label htmlFor='residencia'>
@@ -79,7 +79,11 @@ const MeuFormulario = () => {
           </select>
         </div>
         <div className="campo">
-          <Link className='link-resultado' to='/Resultado' type="submit">Ver resultado</Link>
+          <Link to='/Resultado'>
+            <button className='link-resultado' type="submit">
+              Ver resultado
+            </button>
+          </Link>
         </div>
       </form>
     </div>
