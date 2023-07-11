@@ -5,7 +5,7 @@ font-family: Arial, sans-serif;
 }
 
 .back{
-height: 1000px;
+    min-height: 100vh;
 }
 
 .welcome-section {

@@ -35,7 +35,23 @@ const Home = () => {
         <div className='button-back'>
             <button className='button mais'>Mais fotos</button>
         </div>
+        <div>
+            <h1>Nosso endereço</h1>
+            <p>defesa.animal@saocarlos.sp.gov.br</p>
+            <p>(016)3374-3239</p>
+            <p>Estr. Mun. Washington José Pêra, 2840-2986 - Bela Vista São-Carlense, São Carlos - SP, 13575-675</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29587.32201423128!2d-47.97596704172447!3d-22.03370546128406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b879ec3e6b1ad9%3A0xf72423676b800dbe!2sCanil%20e%20Gatil%20Municipal!5e0!3m2!1spt-BR!2sbr!4v1689107029532!5m2!1spt-BR!2sbr"
+                width={700}
+                height={300}
+                style={{ border: 0, margin: '2em 0' }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
         </div>
+
+         </div>
     );
 };
 
