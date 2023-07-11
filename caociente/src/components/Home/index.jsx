@@ -14,7 +14,7 @@ const Home = () => {
 
         </div>
         <div className='card-back'>
-            <div className='card'>
+            <div className='card-blue'>
                 <h2>Descubra já qual animal combina com seu perfil!</h2>
                 <Link to='/Quizz' className='button teste'>Faça o teste</Link>
             </div>

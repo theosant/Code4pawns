@@ -8,6 +8,7 @@ import Home from './components/Home';
 import MeuFormulario from './components/Formulario/QuizzCliente';
 import CadastroCliente from './components/Formulario/CadastroCliente';
 import {Route, Routes} from 'react-router-dom'
+import AnimalList from './components/AnimalList';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
             <Route exact path="/" element={<Home/>}></Route>
             <Route exact path="/Quizz" element={<MeuFormulario/>}></Route>
+            <Route exact path="/AnimalList" element={<AnimalList/>}></Route>
         </Routes>
         {/* <Home /> */}
         {/* <Card image={'/imagens/f0035.jpg'} name={'MAX'} /> */}

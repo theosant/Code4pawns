@@ -21,7 +21,7 @@ const Header = () => {
           <a href="#" className="navbar-link">Contato</a>
         </li>
         <li className="navbar-item">
-          <a href="#" className="navbar-link">Animais</a>
+          <a href="/AnimalList" className="navbar-link">Animais</a>
         </li>
       </ul>
     </nav>

@@ -1,6 +1,8 @@
 .card{
     display: flex;
     flex-direction: column;
+    width: fit-content;
+    height: fit-content;
 }
 
 .card-image{
@@ -17,4 +19,5 @@
     font-weight: 700;
     background-color: #F0F0D8;
     margin: 0.4em 0 0;
+    color: #007878;
 }
