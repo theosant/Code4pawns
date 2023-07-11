@@ -1,8 +1,8 @@
 import * as React from 'react';
-import {Link} from 'react-router-dom';
 import { fotos } from '../../data/caes';
 import './style.css';
-import Card from '../Card';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 
 const Fotos = () => {
 
@@ -13,18 +13,20 @@ const Fotos = () => {
     }, [])
 
     return (
-        <div className='back-animals'>
-            <div className='animal-list'>
+        <div className='back-carroussel'>
+                <Splide aria-label="Fotos Canil">
                 {
                     fotos_data ? fotos_data.map((foto)=>(
-                        <img src={foto.img} alt="" />
+                        <SplideSlide>
+                            <img src={foto.img} alt="" />
+                        </SplideSlide>
                         ))
-                    :
-                    <p>
+                        :
+                        <p>
                         Não foi possível processar a pesquisa.
                     </p>
                 }
-            </div>
+                </Splide>
         </div>
     );
 };

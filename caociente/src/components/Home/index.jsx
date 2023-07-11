@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './style.css'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+
 const Home = () => {
     return (
         <div className='back'>
@@ -26,14 +27,16 @@ const Home = () => {
             <img src='/imagens/f0035.jpg' alt='Imagem 1'/>
         </div>
         <div className='image'>
-            <img src='/imagens/f0035.jpg' alt='Imagem 2'/>
+            <img src='/imagens/f0078.jpg' alt='Imagem 2'/>
         </div>
         <div className='image'>
-            <img src='/imagens/f0035.jpg' alt='Imagem 3'/>
+            <img src='/imagens/f0077.jpg' alt='Imagem 3'/>
         </div>
         </div>
         <div className='button-back'>
-            <button className='button mais'>Mais fotos</button>
+            <Link to='/Fotos'>
+                <button className='button mais'>Mais fotos</button>
+            </Link>
         </div>
         <div id='contato'>
             <h2>Nosso endereço</h2> <br />
