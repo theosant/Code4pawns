@@ -6,7 +6,11 @@
     width: 400px;
     margin: 50px auto;
 }
-  
+
+div.metade {
+    width: 50% !important;
+}
+
 .titulo {
     text-align: center;
     margin-bottom: 20px;
@@ -36,7 +40,32 @@ select, input {
     width:48%;
 }
   
-.link-resultado[type="submit"] {
+.botoes-duplos {
+    margin: 10px 0;
+}
+
+.atributos {
+    background-color: #007878;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .atributos:hover {
+    background-color: #005555;
+  }
+
+.link-resultado {
     background-color: #fff;
     color: #007878;
     padding: 10px 20px;
@@ -45,5 +74,5 @@ select, input {
     cursor: pointer;
     display: block;
     margin: 0 auto;
+    width: 100px;
 }
-  
