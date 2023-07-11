@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './form.css'
+import { Link } from 'react-router-dom';
 
 const MeuFormulario = () => {
   const [formulario, setFormulario] = useState({
@@ -78,7 +79,7 @@ const MeuFormulario = () => {
           </select>
         </div>
         <div className="campo">
-          <button type="submit">Ver resultado</button>
+          <Link className='link-resultado' to='/Resultado' type="submit">Ver resultado</Link>
         </div>
       </form>
     </div>
