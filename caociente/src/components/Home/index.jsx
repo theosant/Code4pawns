@@ -35,7 +35,7 @@ const Home = () => {
         <div className='button-back'>
             <button className='button mais'>Mais fotos</button>
         </div>
-        <div>
+        <div id='contato'>
             <h1>Nosso endereço</h1>
             <p>defesa.animal@saocarlos.sp.gov.br</p>
             <p>(016)3374-3239</p>
