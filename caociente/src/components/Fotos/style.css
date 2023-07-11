@@ -1,0 +1,25 @@
+.back-animals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.back-card-animals:hover{
+    background-color: #F0F0D8;
+}
+
+.back-card-animals{
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.animal-list{
+    list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+    min-height: 500px;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}

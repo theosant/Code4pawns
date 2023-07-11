@@ -1,3 +1,16 @@
+export const fotos = [
+    {img: "/imagens/f0013.jpg"},
+    {img: "/imagens/f0014.jpg"},
+    {img: "/imagens/f0035.jpg"},
+    {img: "/imagens/f0059.jpg"},
+    {img: "/imagens/f0061.jpg"},
+    {img: "/imagens/f0077.jpg"},
+    {img: "/imagens/f0078.jpg"},
+    {img: "/imagens/f0084.jpg"},
+    {img: "/imagens/f0085.jpg"},
+    {img: "/imagens/f0086.jpg"},
+    {img: "/imagens/f0087.jpg"}
+]
 export const caes = [
     {
         id: 614654465411465,

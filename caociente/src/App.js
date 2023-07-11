@@ -12,6 +12,7 @@ import {Route, Routes} from 'react-router-dom'
 import AnimalList from './components/AnimalList';
 import AnimalPage from './components/AnimalPage';
 import AgendarPasseio from './components/AgendarPasseio';
+import Fotos from './components/Fotos';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Header />
         <Routes>
             <Route exact path="/" element={<Home/>}></Route>
+            <Route exact path="/Fotos" element={<Fotos/>}></Route>
             <Route exact path="/Quizz" element={<MeuFormulario/>}></Route>
             <Route exact path="/AnimalList" element={<AnimalList/>}></Route>
             <Route exact path="/Resultado" element={<Resultado/>}></Route>
