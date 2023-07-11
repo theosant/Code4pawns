@@ -4,7 +4,6 @@ import './style.css'
 const Footer = () => {
   return (
     <div className='footer'>
-        <b> Feito por:</b><br /><br />
       <div className='div-logo'>
         <img src='/imagens/paw.png' className='logo'/>
       </div>
