@@ -1,0 +1,29 @@
+.resultado{
+    padding: 1em 1em 3em;
+    border-radius: 50px;
+    background-color: #F0F0D8;
+    margin: 10vh 15vw;
+}
+.resultado-titulo{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0.5em;
+}
+
+.resultado-subtitulo{
+    font-size: 36px;
+    text-align: left;
+    margin-left: 1em;
+}
+.resultado-texto{
+    padding: 2em;
+    font-size: 24px;
+    margin-bottom: 1em;
+}
+.resultado-link{
+    border-radius: 50px;
+    background-color: #A8C030 ;
+    padding: 1em 3em;
+    font-size: 28px;
+    margin: 2em;
+}

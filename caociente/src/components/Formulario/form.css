@@ -36,7 +36,7 @@ select, input {
     width:48%;
 }
   
-button[type="submit"] {
+.link-resultado[type="submit"] {
     background-color: #fff;
     color: #007878;
     padding: 10px 20px;
