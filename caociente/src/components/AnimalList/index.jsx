@@ -18,7 +18,7 @@ const AnimalList = () => {
                 {
                     caes_data ? caes_data.map((cao)=>(
                         <div className='back-card-animals'> 
-                        <a href={'/animal/' + cao.id}>
+                        <a href={'/Animal/' + cao.id}>
                             <Card image={cao.img} name={cao.nome}/>
                         </a>
                         </div>

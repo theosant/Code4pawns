@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import { caes } from '../../data/caes';
 import { useParams } from 'react-router-dom';
 import './style.css';
-import Card from '../Card';
 
 const AnimalPage = () => {
 
@@ -22,7 +21,6 @@ const AnimalPage = () => {
             <div className='animal-list'>
                 {
                     cao ? (
-                        <div className='back-card-animals'> 
                            <div className="container-animal">
                             <div className="left-section">
                                 <div >
@@ -31,7 +29,7 @@ const AnimalPage = () => {
                                 <Link to='/'>
                                     <button className="adotar-button">Adotar</button>
                                 </Link>
-                                <Link to='/'>
+                                <Link to={'/AgendarPasseio/' + cao.id}>
                                 <button className="agendar-button">Agendar Passeio</button>
                                 </Link>
 
@@ -46,7 +44,6 @@ const AnimalPage = () => {
                             </ul>
                             </div>
                         </div>
-                    </div>
                     )
                     :
                     <p>
