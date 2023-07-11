@@ -9,6 +9,7 @@ import MeuFormulario from './components/Formulario/QuizzCliente';
 import CadastroCliente from './components/Formulario/CadastroCliente';
 import {Route, Routes} from 'react-router-dom'
 import AnimalList from './components/AnimalList';
+import AnimalPage from './components/AnimalPage';
 
 function App() {
   return (
@@ -18,10 +19,11 @@ function App() {
             <Route exact path="/" element={<Home/>}></Route>
             <Route exact path="/Quizz" element={<MeuFormulario/>}></Route>
             <Route exact path="/AnimalList" element={<AnimalList/>}></Route>
+            <Route exact path="/animal/:id" element={<AnimalPage/>}></Route>
         </Routes>
         {/* <Home /> */}
         {/* <Card image={'/imagens/f0035.jpg'} name={'MAX'} /> */}
-        {/* <Contato /> */}
+        <Contato />
         <Footer />
     </div>
   );

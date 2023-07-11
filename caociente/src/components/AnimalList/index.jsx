@@ -16,13 +16,17 @@ const AnimalList = () => {
         <div className='back-animals'>
             <div className='animal-list'>
                 {
-                    caes_data && caes_data.map((cao)=>(
+                    caes_data ? caes_data.map((cao)=>(
                         <div className='back-card-animals'> 
-                        <a href={'/' + cao.nome}>
+                        <a href={'/animal/' + cao.id}>
                             <Card image={cao.img} name={cao.nome}/>
                         </a>
                         </div>
                     ))
+                    :
+                    <p>
+                        Não foi possível processar a pesquisa.
+                    </p>
                 }
             </div>
         </div>

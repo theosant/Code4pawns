@@ -5,8 +5,13 @@
     width: 100%;
 }
 
+.back-card-animals:hover{
+    background-color: #F0F0D8;
+}
+
 .back-card-animals{
-    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
 }
 
 .animal-list{
