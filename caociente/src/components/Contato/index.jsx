@@ -3,7 +3,7 @@ import './style.css'
 
 const Contato = () => {
   return (
-    <div className='contato'>
+    <div className='contato' id='contato'>
         <a href="https://wa.me/+5516982355100">
         <img className='contato-image' src="/imagens/whats.png" alt="Logo do Whats" />
         </a>

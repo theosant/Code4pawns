@@ -15,10 +15,10 @@ const Header = () => {
           <Link to="/Fotos" className="navbar-link">Fotos</Link>
         </li>
         <li className="navbar-item">
-          <a href="#" className="navbar-link">Quero adotar</a>
+          <a href="/Quizz" className="navbar-link">Quero adotar</a>
         </li>
         <li className="navbar-item">
-          <a href="#" className="navbar-link">Contato</a>
+          <a href="#contato" className="navbar-link">Contato</a>
         </li>
         <li className="navbar-item">
           <a href="/AnimalList" className="navbar-link">Animais</a>
