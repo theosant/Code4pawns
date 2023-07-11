@@ -2,4 +2,19 @@
     background-color: #007878;
     height: 15vw;
     color: white;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+}
+.div-logo{
+    margin: 0px 10px 0px 60px;
+    width: auto;
+}
+.div-names{
+    text-align: left;
 }

@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.back-animals{
+    margin: 40px 0px;
+}
+
+.container-animal {
+    display: flex;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+    background-color: #ccc;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.info-card {
+    border-radius: 50px;
+    width: 300px;
+    background-color: #F0F0D8;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.adotar-button {
+    background-color: #A8C030;
+    display: flex;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    margin-top: 10px;
+    align-items: center;
+    border: none;
+    justify-content: center;
+    width: 260px;
+}
+
+.agendar-button {
+    background-color: #007878;
+    display: flex;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+}
+
+
+.adotar-button:active {
+    background-color: #4f5d0b;
+}
+.adotar-button:hover {
+    background-color: #869e10;
+}
+.agendar-button:active {
+    background-color: #083c3c;
+}
+.agendar-button:hover {
+    background-color: #0c4545;
+}
+
+.button{
+    display: flex;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-back{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    font-family: Montserrat;
+    text-align: left;
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .list li {
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  } 
+
+.animal-name-title{
+    font-size: xx-large;
+}
