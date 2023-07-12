@@ -13,20 +13,22 @@ const Fotos = () => {
     }, [])
 
     return (
-        <div className='back-carroussel'>
-                <Splide aria-label="Fotos Canil">
-                {
-                    fotos_data ? fotos_data.map((foto)=>(
-                        <SplideSlide>
-                            <img src={foto.img} alt="" />
-                        </SplideSlide>
-                        ))
-                        :
-                        <p>
-                        Não foi possível processar a pesquisa.
-                    </p>
-                }
-                </Splide>
+        <div className='background-fotos'>
+            <div className='back-carroussel'>
+                    <Splide aria-label="Fotos Canil">
+                    {
+                        fotos_data ? fotos_data.map((foto)=>(
+                            <SplideSlide>
+                                <img src={foto.img} alt="" />
+                            </SplideSlide>
+                            ))
+                            :
+                            <p>
+                            Não foi possível processar a pesquisa.
+                        </p>
+                    }
+                    </Splide>
+            </div>
         </div>
     );
 };

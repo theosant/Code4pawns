@@ -1,9 +1,13 @@
-.back-carroussel{
-    /* display: flex;
+
+.background-fotos{
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
+}
+
+.back-carroussel{
     margin: 100px 0;
-    width: 100%;
+    width: 1000px; 
 }
 
 .back-card-animals:hover{
